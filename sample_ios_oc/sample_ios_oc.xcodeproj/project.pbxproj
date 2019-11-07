@@ -10,12 +10,12 @@
 		550D63052373E0AD00D72AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 550D63042373E0AD00D72AEC /* AppDelegate.m */; };
 		550D63082373E0AD00D72AEC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 550D63072373E0AD00D72AEC /* SceneDelegate.m */; };
 		550D630B2373E0AD00D72AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550D630A2373E0AD00D72AEC /* ViewController.m */; };
-		550D630E2373E0AD00D72AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550D630C2373E0AD00D72AEC /* Main.storyboard */; };
 		550D63102373E0AE00D72AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550D630F2373E0AE00D72AEC /* Assets.xcassets */; };
-		550D63132373E0AE00D72AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550D63112373E0AE00D72AEC /* LaunchScreen.storyboard */; };
 		550D63162373E0AE00D72AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 550D63152373E0AE00D72AEC /* main.m */; };
 		550D63202373E0AE00D72AEC /* sample_ios_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550D631F2373E0AE00D72AEC /* sample_ios_ocTests.m */; };
 		550D632B2373E0AE00D72AEC /* sample_ios_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550D632A2373E0AE00D72AEC /* sample_ios_ocUITests.m */; };
+		55927AD223746FE40042205B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550D63112373E0AE00D72AEC /* LaunchScreen.storyboard */; };
+		55927AD323746FE80042205B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550D630C2373E0AD00D72AEC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,9 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				550D63132373E0AE00D72AEC /* LaunchScreen.storyboard in Resources */,
+				55927AD323746FE80042205B /* Main.storyboard in Resources */,
+				55927AD223746FE40042205B /* LaunchScreen.storyboard in Resources */,
 				550D63102373E0AE00D72AEC /* Assets.xcassets in Resources */,
-				550D630E2373E0AD00D72AEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
