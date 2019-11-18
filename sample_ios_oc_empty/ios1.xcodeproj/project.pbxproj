@@ -13,6 +13,12 @@
 		557E481B230713780079FCC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557E481A230713780079FCC2 /* Assets.xcassets */; };
 		557E481E230713780079FCC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557E481C230713780079FCC2 /* LaunchScreen.storyboard */; };
 		557E4821230713780079FCC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 557E4820230713780079FCC2 /* main.m */; };
+		55B5F1B12376B52F00558393 /* FKCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B5F1B02376B52F00558393 /* FKCustomView.m */; };
+		55B5F1B82376BB3C00558393 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B5F1B62376BB3C00558393 /* ImageViewController.m */; };
+		55C5C788237701EA00E43A8F /* ImageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C5C787237701EA00E43A8F /* ImageStoryboard.storyboard */; };
+		55C5C78C23770A9100E43A8F /* UIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C5C78B23770A9100E43A8F /* UIDelegate.m */; };
+		55C5C78E23770CAE00E43A8F /* UICodeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C5C78D23770CAE00E43A8F /* UICodeStoryboard.storyboard */; };
+		55C5C79223770CE400E43A8F /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C5C79123770CE400E43A8F /* ButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,16 @@
 		557E481D230713780079FCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		557E481F230713780079FCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		557E4820230713780079FCC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55B5F1AF2376B52F00558393 /* FKCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKCustomView.h; sourceTree = "<group>"; };
+		55B5F1B02376B52F00558393 /* FKCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKCustomView.m; sourceTree = "<group>"; };
+		55B5F1B52376BB3C00558393 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		55B5F1B62376BB3C00558393 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		55C5C787237701EA00E43A8F /* ImageStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageStoryboard.storyboard; sourceTree = "<group>"; };
+		55C5C78A23770A9100E43A8F /* UIDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDelegate.h; sourceTree = "<group>"; };
+		55C5C78B23770A9100E43A8F /* UIDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDelegate.m; sourceTree = "<group>"; };
+		55C5C78D23770CAE00E43A8F /* UICodeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UICodeStoryboard.storyboard; sourceTree = "<group>"; };
+		55C5C79023770CE400E43A8F /* ButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		55C5C79123770CE400E43A8F /* ButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,9 @@
 		557E4810230713760079FCC2 /* ios1 */ = {
 			isa = PBXGroup;
 			children = (
+				55C5C78923770A4E00E43A8F /* ui_code */,
+				55B5F1B42376BAE500558393 /* uiimageview */,
+				55B5F1AE2376B50700558393 /* custom_view */,
 				557E4811230713760079FCC2 /* AppDelegate.h */,
 				557E4812230713760079FCC2 /* AppDelegate.m */,
 				557E4814230713760079FCC2 /* ViewController.h */,
@@ -69,6 +88,45 @@
 				557E4820230713780079FCC2 /* main.m */,
 			);
 			path = ios1;
+			sourceTree = "<group>";
+		};
+		55B5F1AE2376B50700558393 /* custom_view */ = {
+			isa = PBXGroup;
+			children = (
+				55B5F1AF2376B52F00558393 /* FKCustomView.h */,
+				55B5F1B02376B52F00558393 /* FKCustomView.m */,
+			);
+			path = custom_view;
+			sourceTree = "<group>";
+		};
+		55B5F1B42376BAE500558393 /* uiimageview */ = {
+			isa = PBXGroup;
+			children = (
+				55B5F1B52376BB3C00558393 /* ImageViewController.h */,
+				55B5F1B62376BB3C00558393 /* ImageViewController.m */,
+				55C5C787237701EA00E43A8F /* ImageStoryboard.storyboard */,
+			);
+			path = uiimageview;
+			sourceTree = "<group>";
+		};
+		55C5C78923770A4E00E43A8F /* ui_code */ = {
+			isa = PBXGroup;
+			children = (
+				55C5C78F23770CBF00E43A8F /* button */,
+				55C5C78A23770A9100E43A8F /* UIDelegate.h */,
+				55C5C78B23770A9100E43A8F /* UIDelegate.m */,
+				55C5C78D23770CAE00E43A8F /* UICodeStoryboard.storyboard */,
+			);
+			path = ui_code;
+			sourceTree = "<group>";
+		};
+		55C5C78F23770CBF00E43A8F /* button */ = {
+			isa = PBXGroup;
+			children = (
+				55C5C79023770CE400E43A8F /* ButtonViewController.h */,
+				55C5C79123770CE400E43A8F /* ButtonViewController.m */,
+			);
+			path = button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +187,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				557E481E230713780079FCC2 /* LaunchScreen.storyboard in Resources */,
+				55C5C788237701EA00E43A8F /* ImageStoryboard.storyboard in Resources */,
 				557E481B230713780079FCC2 /* Assets.xcassets in Resources */,
 				557E4819230713760079FCC2 /* Main.storyboard in Resources */,
+				55C5C78E23770CAE00E43A8F /* UICodeStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B5F1B82376BB3C00558393 /* ImageViewController.m in Sources */,
+				55B5F1B12376B52F00558393 /* FKCustomView.m in Sources */,
+				55C5C79223770CE400E43A8F /* ButtonViewController.m in Sources */,
+				55C5C78C23770A9100E43A8F /* UIDelegate.m in Sources */,
 				557E4816230713760079FCC2 /* ViewController.m in Sources */,
 				557E4821230713780079FCC2 /* main.m in Sources */,
 				557E4813230713760079FCC2 /* AppDelegate.m in Sources */,
@@ -286,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BKB45TUMT;
 				INFOPLIST_FILE = ios1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BKB45TUMT;
 				INFOPLIST_FILE = ios1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

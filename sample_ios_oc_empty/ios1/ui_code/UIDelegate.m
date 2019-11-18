@@ -1,52 +1,27 @@
 //
-//  AppDelegate.m
+//  UIDelegate.m
 //  ios1
 //
-//  Created by glumes on 2019/8/17.
+//  Created by glumes on 2019/11/9.
 //  Copyright © 2019 glumes. All rights reserved.
 //
 
-#import "AppDelegate.h"
-#import "ImageViewController.h"
-#import "ViewController.h"
+#import "UIDelegate.h"
 
-@interface AppDelegate ()
+@implementation UIDelegate
 
-@end
-
-@implementation AppDelegate
-
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-//    
+- (void)applicationDidFinishLaunching:(UIApplication *)application{
+    
     self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
-
-//    self.window.backgroundColor = [UIColor redColor];
-
-//    ViewController *controller = [[ViewController alloc] init];
     
+    UIStoryboard *mainStory = [UIStoryboard storyboardWithName:@"UICodeStoryboard" bundle:nil];
     
-//    ImageViewController *controller = [[ImageViewController alloc] init];
-    
-//
-//    self.window.rootViewController = controller;
-
-    
-//    UIView * rootView = [[UIView alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
-//
-//    controller.view  = rootView;
-
-    
-    UIStoryboard *mainStory = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    
-    ImageViewController * controller = [mainStory instantiateViewControllerWithIdentifier:@"imageViewController"];
+    ButtonViewController * controller = [mainStory instantiateViewControllerWithIdentifier:@"ButtonViewController"];
     
     self.window.rootViewController = controller;
     
     [self.window makeKeyAndVisible];
 
-    return YES;
 }
 
 
@@ -78,3 +53,6 @@
 
 
 @end
+
+
+
