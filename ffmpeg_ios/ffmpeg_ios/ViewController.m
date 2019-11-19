@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 
+#include <libavutil/avutil.h>
+#include <libavdevice/avdevice.h>
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {
