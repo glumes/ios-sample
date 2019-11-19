@@ -10,9 +10,13 @@
 
 @interface ViewController ()
 
+<<<<<<< HEAD
 @property (weak, nonatomic) IBOutlet UIButton *myBtn;
 
 @property (nonatomic,strong) NSMutableArray * labels;
+=======
+@property (weak, nonatomic) IBOutlet UIButton *test;
+>>>>>>> 72dbe21fd74985957bea1481b36331cad0df420e
 
 @end
 
