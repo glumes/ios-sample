@@ -42,6 +42,9 @@
             NSLog(@"this is init log");
         }
     }];
+    
+    int version = avcodec_version();
+    NSLog(@"version is %d",version);
 }
 
 
