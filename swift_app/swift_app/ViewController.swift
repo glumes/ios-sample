@@ -64,6 +64,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "itemSegue", sender: indexPath.row)
+        
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -79,10 +81,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 
                 let item = toBuyItems[sender as! Int]
                 destination.itemData = item
-            } else if segue.identifier == "newItemSegue" {
-                let destination :NewItemViewController = segue.destination as! NewItemViewController
-                destination.delegate = self
             }
+        } else if segue.identifier == "newItemSegue" {
+            let destination :NewItemViewController = segue.destination as! NewItemViewController
+            destination.delegate = self
         }
     }
     
@@ -94,6 +96,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func addNewItem(controller : NewItemViewController,item:Item){
         
+
         toBuyItems.append(item)
         tableView.reloadData()
         

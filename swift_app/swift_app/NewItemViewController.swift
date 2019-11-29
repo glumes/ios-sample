@@ -42,10 +42,17 @@ class NewItemViewController: UIViewController {
         
         itemData = Item(itemName: "this is item", brandName: "this is brand")
 //        dismiss(animated: true, completion: nil)
-        if itemData != nil {
+        if  itemData != nil {
             delegate.addNewItem(controller: self, item:itemData!)
         }
+        
+        saveBtn.addTarget(self, action: Selector, for: .touchUpInside)
 
+    }
+    
+    func push() -> Void {
+        let vc = 
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 }
