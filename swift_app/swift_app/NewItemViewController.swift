@@ -46,13 +46,13 @@ class NewItemViewController: UIViewController {
             delegate.addNewItem(controller: self, item:itemData!)
         }
         
-        saveBtn.addTarget(self, action: Selector, for: .touchUpInside)
+//        saveBtn.addTarget(self, action÷: Selector, for: .touchUpInside)
 
     }
-    
-    func push() -> Void {
-        let vc = 
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
+//
+//    func push() -> Void {
+//        let vc =
+//        self.navigationController?.pushViewController(vc, animated: true)
+//    }
     
 }

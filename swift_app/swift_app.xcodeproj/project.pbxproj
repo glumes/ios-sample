@@ -16,6 +16,8 @@
 		55CB65C1239102EC009DA2D9 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB65C0239102EC009DA2D9 /* NewItemViewController.swift */; };
 		55CB65C323910DA7009DA2D9 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB65C223910DA7009DA2D9 /* ItemViewController.swift */; };
 		55CB65C523911712009DA2D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB65C423911712009DA2D9 /* Item.swift */; };
+		55CF24762392960B00808558 /* SpecialsForSupermarketTVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF24752392960B00808558 /* SpecialsForSupermarketTVCTableViewController.swift */; };
+		55CF24782392B4B800808558 /* Specials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF24772392B4B800808558 /* Specials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		55CB65C0239102EC009DA2D9 /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		55CB65C223910DA7009DA2D9 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		55CB65C423911712009DA2D9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		55CF24752392960B00808558 /* SpecialsForSupermarketTVCTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsForSupermarketTVCTableViewController.swift; sourceTree = "<group>"; };
+		55CF24772392B4B800808558 /* Specials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			children = (
 				55CB65AC2390E535009DA2D9 /* AppDelegate.swift */,
 				55CB65AE2390E535009DA2D9 /* SceneDelegate.swift */,
+				55CF24752392960B00808558 /* SpecialsForSupermarketTVCTableViewController.swift */,
 				55CB65B02390E535009DA2D9 /* ViewController.swift */,
 				55CB65B22390E535009DA2D9 /* Main.storyboard */,
 				55CB65B52390E536009DA2D9 /* Assets.xcassets */,
@@ -72,6 +77,7 @@
 				55CB65C0239102EC009DA2D9 /* NewItemViewController.swift */,
 				55CB65C223910DA7009DA2D9 /* ItemViewController.swift */,
 				55CB65C423911712009DA2D9 /* Item.swift */,
+				55CF24772392B4B800808558 /* Specials.swift */,
 			);
 			path = swift_app;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 				55CB65AD2390E535009DA2D9 /* AppDelegate.swift in Sources */,
 				55CB65C323910DA7009DA2D9 /* ItemViewController.swift in Sources */,
 				55CB65C1239102EC009DA2D9 /* NewItemViewController.swift in Sources */,
+				55CF24762392960B00808558 /* SpecialsForSupermarketTVCTableViewController.swift in Sources */,
+				55CF24782392B4B800808558 /* Specials.swift in Sources */,
 				55CB65C523911712009DA2D9 /* Item.swift in Sources */,
 				55CB65AF2390E535009DA2D9 /* SceneDelegate.swift in Sources */,
 			);
